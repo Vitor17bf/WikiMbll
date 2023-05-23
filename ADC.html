@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WikiMbll</title>
+    <link rel="stylesheet" href="assets/img">
+    <style>
+        body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+.subtitles {
+    text-align: center;
+}
+.Frame {
+   margin: 0 auto;
+   display: block;
+}
+
+video {
+   margin: 0 auto;
+   width: 560px;
+   display: block;
+    
+} 
+
+mark{
+    color: red;
+    background-color: white;
+}
+
+footer{
+    width: 100%;
+    min-height: 250px;
+    background:#ffffff;
+    display: flex;
+    text-align: center;
+}
+
+footer .boxs{
+    width: 2500px;
+    min-height: 150px;
+    padding: 5px;
+}
+
+</style>
+</head>
+<body>
+
+    <header>   
+        <header class="logo">
+            <figure>
+            <img src="img/Logo_mobile.png" width="250" alt="Logo do jogo Mobile Legends" text-align="center" />
+            <figcaption>Logo do jogo Mobile Legends</figcaption>
+            </figure>
+        </header>
+    </header>
+
+    <nav class="bar"></nav>
+
+    <nav class="content">
+        <nav class="sidebar">
+            <h2>Título</h2>
+            <ul>
+                <li><a href="Pag_inicial.html">Como tudo começou</a></li>
+                <li><a href="Mapa.html">Mapa do jogo</a></li>
+                <li><a href="Rota_xp.html">Rota de experiência (XP) </a></li>
+                <li><a href="ADC.html">Rota do ouro (ADC) </a></li>
+                <li><a href="Mid.html">Rota central (MID) </a></li>
+                <li><a href="Rotação.html">Rotação (ROT) </a></li>
+            </ul>
+        </nav>
+
+        <main class="main">
+
+            <h1 id="" class="subtitles"><u>Rota do ouro (ADC)</u></h1>
+            <hr>
+          
+            <p>Existem diferentes tipos de heróis atiradores, cada um com suas próprias habilidades únicas. Esses atiradores são essenciais para equilibrar a equipe e causar danos significativos aos oponentes.
+            Vamos explorar os principais tipos de atiradores e suas habilidades características.
+            </p>
+           
+            <figure>
+                <img src="img/Bea.png" width="350" alt="Personagem beatriz" text-align="center">
+            <figcaption>Personagem Beatriz</figcaption>
+            </figure>
+            <hr>
+           
+            <h2 id="adc" class="subtitles"><u>Tipos de atiradores</u></h2>
+           
+            <strong><p> Atiradores de Burst:</p></strong> 
+            <p>Os atiradores de burst são conhecidos por suas habilidades explosivas de causar danos em curto espaço de tempo. Eles têm a capacidade de eliminar rapidamente os inimigos com combos devastadores. Esses heróis geralmente possuem habilidades como "Ultimate" que causam uma quantidade massiva de dano em área, 
+            além de habilidades de mobilidade para se movimentar rapidamente pelo campo de batalha.
+            </p> 
+
+            <figure>
+                <img src="img/Brody.png" width="350" alt="Personagem Brody" text-align="center">
+                <figcaption>Personagem Brody</figcaption>
+            </figure>
+
+            <br>
+            <hr>
+            <p><strong>Atiradores de Dano Contínuo:</strong></p>
+            <p>
+            Os atiradores de dano contínuo são conhecidos por sua capacidade de causar danos constantes e consistentes ao longo do tempo. 
+            Eles são especialistas em usar ataques básicos para desgastar seus oponentes. Esses heróis geralmente têm habilidades que melhoram seus ataques básicos, 
+            como aumentar a velocidade de ataque, a chance de acerto crítico ou adicionar efeitos adicionais aos seus ataques</p>
+    
+                <figure>
+                    <img src="img/Claude.png" width="350" alt="Personagem Claude" text-align="center">
+                    <figcaption>Personagem Claude</figcaption>
+                 </figure>
+              <hr>
+
+        </main>
+
+        <aside class="anchors">
+            <h2>Neste Artigo</h2>
+            <ul>
+                <li><a href="#adc">Tipos de atiradores</a></li>
+            </ul>
+        </aside>
+    </nav>
+
+    <footer class="footer">
+        <div class="boxs">
+            <h2>Contatos</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/vitor-barreiro-2526a6199/">Linkedin</a></li>
+                <li><a href="https://github.com/Vitor17bf">GitHub</a></li>
+                <li><a href="mailto:vitorbarreiro17@gmail.com">Email</a></li>
+            </ul>
+           </div>
+    </footer>
+</body>
+</html>

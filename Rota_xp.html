@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WikiMbll</title>
+    <link rel="stylesheet" href="assets/img">
+    <style>
+        body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+.subtitles {
+    text-align: center;
+}
+video {
+   margin: 0 auto;
+   width: 560px;
+   display: block;
+    
+}
+
+footer{
+    width: 100%;
+    min-height: 250px;
+    background:#ffffff;
+    display: flex;
+    text-align: center;
+}
+
+footer .boxs{
+    width: 2500px;
+    min-height: 150px;
+    padding: 5px;
+}
+
+</style>
+</head>
+<body>
+
+    <header>   
+        <header class="logo">
+            <figure>
+            <img src="img/Logo_mobile.png" width="250" alt="Logo do jogo Mobile Legends" text-align="center" />
+            <figcaption>Logo do jogo Mobile Legends</figcaption>
+            </figure>
+        </header>
+    </header>
+
+    <nav class="bar"></nav>
+
+    <nav class="content">
+        <nav class="sidebar">
+            <h2>Título</h2>
+            <ul>
+                <li><a href="Pag_inicial.html">Como tudo começou</a></li>
+                <li><a href="Mapa.html">Mapa do jogo</a></li>
+                <li><a href="Rota_xp.html">Rota de experiência (XP) </a></li>
+                <li><a href="ADC.html">Rota do ouro (ADC) </a></li>
+                <li><a href="Mid.html">Rota central (MID) </a></li>
+                <li><a href="Rotação.html">Rotação (ROT) </a></li>
+            </ul>
+        </nav>
+
+        <main class="main">
+
+            <h1 class="subtitles"><u>Rota de XP</u></h1>
+            <hr>
+
+            <p>A rota de experiência ou XP como preferir, é uma lane onde geralmente os soldados vão batalhar, mas está lane não fica presa somente a soldados,
+            também podemos ter tanks ou até mesmo assassino nesta lanes
+            Nesta rota ganhamos Experiência adicional, para podermos chegar no leveis mais altos com maior velocidade, a lutas são contantes e muitas das vezes bem parelhas.
+            Existem vários tipos de soldados com diferentes habilidades, que podem trazer uma melhor estratégia para o jogo.
+            No Mobile Legends, temos soldados com grande capacidade defensiva e sustentabilidade para se manter em um longo período na batalha, também conhecidos como soldados de <strong>sustein</strong>.
+            Outro tipo, são os soldados de <strong>late game</strong> estes por sua vez, no início do jogo tem uma grande dificuldade nos duelos e balhas, estes tipos de personagens começam a ficar fortes do meio para a parte final da partida, sendo um problema muito grande a equipe adversaria na parte final de jogo. 
+            Os <strong>offtanks</strong>, são tanks que podem quebrar um galho fazendo a XP lane, tendo, boa sustentabilidade e grande controle de grupo, dependo de como a sua equipe montou a formação, um tank side seria uma boa forma de ajustar a sua composição.
+            </p>
+            <figure>
+                <img src="img/Soldados.webp" width="350" alt="Imagem demosntrando diversos personagens do jogo" text-align="center">
+            <figcaption>Personagens do jogo </figcaption>
+            </figure>
+            <hr>
+           
+            <h2 id="sustein" class="subtitles"><u>Soldados de sustein</u></h2>
+           
+            <p>Os soldados de sustein, como já foi dito, são soldados que servem para ter uma longa duração no campo de batalha, conseguindo segurar sua lane contra seu adversário e ganks do mago e assassinos
+            Alguns dos soldados com grande capacidade de sustein são: <strong>Terizla, Lapu-lapu e Ruby</strong>.
+            </p>
+                
+            <figure>
+                <img src="img/terizla_png.png" width="350" alt="Personagem Terizla" text-align="center">
+                <figcaption>Soldado Terizla</figcaption>
+            </figure>
+
+            <p>Destes soldados citados a cima a minha maior recomendação é <strong>Terizla</strong>, ele possui uma passiva que quanto menor sua vida for, mais defesa física e magica ele ganha.
+            Além disso, ele tem um bom dano em área e consegue exercer controle de grupo com sua ultimate.</p>
+            <hr>
+            <video id="video" controls width="560" height="315">
+                <source src="img/Terizla.mp4" title="Gameplay de Terizla">
+            </video>
+              <br><hr>
+
+               <h2 id="late" class="subtitles"><u>Soldados de Late game</u></h2>
+               <p>Esse soldados não são tão utilizados, eles são dependentes de sua composição, por eles não terem um bom early game, são facilmente gankados e não tem um poder de reação tão grande,
+                estes soldados necessitam de no mínimo 3 itens para começar a entrar no jogo, seu dano vem geralmente do ataque básico.
+                Aqui vai alguns herois com estas carcterísticas: <strong>Aulos, Argus e Sun</strong></p>
+
+                <figure>
+                    <img src="img/Argus.png" width="350" alt="Personagem Argus" text-align="center">
+                    <figcaption>Soldado Argus</figcaption>
+                </figure>
+
+               <p>O <strong>Argus</strong> tem seu prestígio dentro do jogo, ele é um dos heróis que detêm umas das maiores taxas de vitórias dentro do jogo, em outras palavras, quando tiver um Argus no seu time você tem uma grande chance de sair vitorioso</p>
+               
+                 <hr>
+
+            <video id="video" controls width="560" height="315">
+                <source src="img/Argus.mp4" title="Gameplay de Argus">
+            </video>
+            
+            <hr>
+
+            <h2 id="off" class="subtitles"><u>Offtanks</u></h2>
+
+            <p>Alguns tanks também podem fazer a XP lane, por possuírem boa capacidade de durabilidade e controle de grupo, acabam sendo a melhor opção caso sua composição
+             tenha heróis com pouca vida ou que sejam alvos fáceis para seus adversários, ou até mesmo que sua composição tenha muito heróis de late game, assim, dependendo muito,
+             de heróis que possam segurar o jogo até o crescimento deles.</p>
+            
+            <p>Alguns bons exemplos de Offtanks são:<strong>Uranos, Gloo e Gatotkaca</strong></p>
+             <figure>
+                <img src="img/Gatotkaca.png" width="350" alt="Personagem Gatotkaca">
+                <figcaption>Tank Gatotkaca</figcaption>
+             </figure>
+             <hr>
+        </main>
+
+        <aside class="anchors">
+            <h2>Neste Artigo</h2>
+            <ul>
+                <li><a href="#sustein">Soldados de sustein</a></li>
+                <li><a href="#late">Soldados de late game</a></li>
+                <li><a href="#off">Offtank</a></li>
+            </ul>
+        </aside>
+    </nav>
+
+    <footer class="footer">
+        <div class="boxs">
+            <h2>Contatos</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/vitor-barreiro-2526a6199/">Linkedin</a></li>
+                <li><a href="https://github.com/Vitor17bf">GitHub</a></li>
+                <li><a href="mailto:vitorbarreiro17@gmail.com">Email</a></li>
+            </ul>
+           </div>
+    </footer>
+</body>
+</html>

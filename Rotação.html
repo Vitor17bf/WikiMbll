@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WikiMbll</title>
+    <link rel="stylesheet" href="assets/img">
+    <style>
+        body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+.subtitles {
+    text-align: center;
+}
+.Frame {
+   margin: 0 auto;
+   display: block;
+}
+
+video {
+   margin: 0 auto;
+   width: 560px;
+   display: block;
+    
+} 
+
+mark{
+    color: red;
+    background-color: white;
+}
+
+footer{
+    width: 100%;
+    min-height: 250px;
+    background:#ffffff;
+    display: flex;
+    text-align: center;
+}
+
+footer .boxs{
+    width: 2500px;
+    min-height: 150px;
+    padding: 5px;
+}
+
+
+</style>
+</head>
+<body>
+
+    <header>   
+        <header class="logo">
+            <figure>
+            <img src="img/Logo_mobile.png" width="250" alt="Logo do jogo Mobile Legends" text-align="center" />
+            <figcaption>Logo do jogo Mobile Legends</figcaption>
+            </figure>
+        </header>
+    </header>
+
+    <nav class="bar"></nav>
+
+    <nav class="content">
+        <nav class="sidebar">
+            <h2>Título</h2>
+            <ul>
+                <li><a href="Pag_inicial.html">Como tudo começou</a></li>
+                <li><a href="Mapa.html">Mapa do jogo</a></li>
+                <li><a href="Rota_xp.html">Rota de experiência (XP) </a></li>
+                <li><a href="ADC.html">Rota do ouro (ADC) </a></li>
+                <li><a href="Mid.html">Rota central (MID) </a></li>
+                <li><a href="Rotação.html">Rotação (ROT) </a></li>
+            </ul>
+        </nav>
+
+        <main class="main">
+
+            <h1 id="rotação" class="subtitles"><u>Rotação</u></h1>
+            <hr>
+          
+            <p>A rotação tem um papel muito importante no jogo, uma escolha errada de herói pode acabar com o jogo, a seleção do personagem tem que considerar o time adversário,
+            sendo assim, no jogo temos diversos tipos de tanks, cada um com sua própria habilidade, por exemplo, tanks de controle de grupo, repelir ataques básicos, inicialização e tanks que não tomam controle de grupo.
+            </p>
+           
+            <figure>
+                <img src="img/atlas.png" width="350" alt="Personagem atlas" text-align="center">
+            <figcaption>Personagem  atlas </figcaption>
+            </figure>
+            <hr>
+           
+            <h2 id="iniciação" class="subtitles"><u>Tanks de inicialização</u></h2>
+           
+            <p>Este tipo de tank serve para iniciar um confronto, seja para focar um único personagem, ou para focar todos, não são tanks que possuem uma grande capacidade defensiva,
+            porém, são ótimos para iniciar jogadas, recomendo os seguintes tanks:<strong> Atlas, Akai e kufra.</strong>
+            </p> 
+
+            <figure>
+                <img id="video" src="img/Akaii.png" width="350" alt="Personagem Akai" text-align="center">
+                <figcaption>Personagem Akai</figcaption>
+            </figure>
+
+            <p>Dos Tanks citados a cima, cada um irá combinar melhor conforme a composição adversaria, o <strong>Akai</strong> consegue se sair bem contra quase todas as composições possíveis.
+            Com isso ele se torna um Tank muito completo.</p>
+
+            <hr>
+            
+            <video controls width="560" height="315">
+                <source src="img/Akai.mp4" title="Gameplay de Akai">
+            </video>
+
+            <hr>
+               <h2 id="controle" class="subtitles"><u>Tanks de controle de grupo</u></h2>
+              
+               <p>Esses tanks são ótimos para proteção de time, eles aguentam muito dano, e possuem muitas habilidades de controle e stun. 
+               Eles combinam muito com composições de baixa defesa magica e física, porém, são facilmente counterados por <mark><u>heróis anti controle de grupo.</u></mark> 
+
+               <figure>
+                    <img src="img/tigre.png" width="350" alt="Personagem tigreal" text-align="center">
+                    <figcaption>Personagem Tigreal</figcaption>
+                 </figure>
+
+                 <p>O <strong>Tigreal</strong> é um personagem que está presente desde os elos mais baixos do jogo até o mais alto.
+                 Ele é o exemplo perfeito de Tank de controle, todas suas habilidades possuem controle de grupo, sendo um adversário bem irritante de se jogar contra.
+                 Porém, dependendo das escolhas do adversário, ele pode ser completamente anulado do jogo. Outros Tanks que de controle que podemos citar são:<strong> Minotauro e Fredrinn</strong>.</p> 
+            
+            <br>
+            <hr>
+
+            <h2 id="Dano" class="subtitles"><u>Tanks anti ataque básicos</u></h2>
+      
+                <p>Esses tipos de Tanks são usados contra composições que possuem como sua principal forma de dano o ataque básico.
+                São eles:<strong> Belerick e Lolita</strong></p>
+    
+                <figure>
+                    <img src="img/lolita.png" width="350" alt="Personagem Lolita" text-align="center">
+                    <figcaption>Personagem Lolita</figcaption>
+                 </figure>
+              <hr>
+
+         <video id="video" controls width="560" height="315">
+             <source src="img/Belerick.mp4" title="Gameplay de Argus">
+         </video>
+
+        </main>
+
+        <aside class="anchors">
+            <h2>Neste Artigo</h2>
+            <ul>
+                <li><a href="#rotação">Rotação</a></li>
+                <li><a href="#controle">Tanks de controle de grupo</a></li>
+                <li><a href="#iniciação">Tanks de iniciação</a></li>
+                <li><a href="#Dano">Anti ataque básico</a></li>
+            </ul>
+        </aside>
+    </nav>
+
+    <footer class="footer">
+        <div class="boxs">
+            <h2>Contatos</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/vitor-barreiro-2526a6199/">Linkedin</a></li>
+                <li><a href="https://github.com/Vitor17bf">GitHub</a></li>
+                <li><a href="mailto:vitorbarreiro17@gmail.com">Email</a></li>
+            </ul>
+           </div>
+    </footer>
+</body>
+</html>
